@@ -1,0 +1,27 @@
+{
+  "name": "cognosco",
+  "private": true,
+  "scripts": {
+    "generate": "node data/generate.mjs",
+    "predev": "node data/generate.mjs",
+    "prebuild": "node data/generate.mjs",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "demo": "node data/generate.mjs && next dev",
+    "check": "node data/generate.mjs && npx tsx lib/selfcheck.ts"
+  },
+  "dependencies": {
+    "@phosphor-icons/react": "^2.1.10",
+    "next": "^15.5.4",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.19.0",
+    "@types/react": "^19.1.13",
+    "@types/react-dom": "^19.1.9",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2"
+  }
+}

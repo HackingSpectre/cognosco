@@ -1,0 +1,10 @@
+node_modules
+.next
+.cognosco
+docs
+*.tsbuildinfo
+next-env.d.ts
+data/packs
+.env
+.env.*
+*.log
